@@ -390,6 +390,7 @@ namespace pos_supermarket
                         {
                             TampilkanStrukPembayaran(invoiceNumber, namaKasir, subtotal, nominaldiscount, totalbayarfinal, uangbayar, uangkembalian);
                         }
+                        ResetForm();
                     }
                     catch (Exception ex)
                     {
